@@ -1,0 +1,121 @@
+.main-header {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background:whitesmoke;
+  box-shadow: 0 2px 6px rgba(249, 246, 246, 0.183);
+  padding: 0 0rem;
+  z-index: 20;
+}
+
+.site-background {
+  margin-top: 1rem;
+  position: absolute;
+  top: 6rem;
+}
+
+.main-header s-mag {
+  float: right;
+  
+}
+
+main {
+  margin-top: 3rem;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  /* background-color: hsl(252, 14%, 93%); */
+  background-color: white;
+  align-items: center;
+  color: black;
+  position: fixed;
+  top: 4rem;
+  border-bottom: 1px solid #cdcbd7;
+  z-index: 20;
+}
+
+.top-div a {
+  text-decoration: none;
+  
+}
+
+.nav-two-icons {
+  font-size: 22px;
+  color: #e3dada;
+}
+
+.icon-set {
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  position: relative;
+  cursor: pointer;
+  
+  /* margin-top: 7px; */
+}
+
+.icon-set .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: transparent;
+  color: green;
+  text-align: center;
+  border: none;
+  padding: 5px 0;
+  /* font-weight: bold; */
+
+  /* Position the tooltip */
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  z-index: 10;
+  /* margin-top: 7px; */
+}
+
+.icon-set:hover .tooltiptext {
+  visibility: visible;
+}
+
+.icon-set i {
+  color: #908989;
+}
+
+icon-set i {
+  margin-right: 15px;
+  
+}
+.nav2-icon-text {
+ margin: 0px 5px 0px 5px;
+ color: #908989; 
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    justify-content: space-between;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #cdcbd7;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav2-icon-text {
+    display: none;
+  }
+}
+
+.hideForTheMoment {
+  display: none;
+}

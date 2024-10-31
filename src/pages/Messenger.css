@@ -1,0 +1,107 @@
+.messaging {
+margin-top: 4rem;
+}
+
+.message-window {
+    z-index: 100;
+  position: fixed;
+  bottom: 0vh;
+  right: 2%;
+  width: 47%;
+  height: 80%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 20px;
+  display: flex;
+  }
+
+  .message-left-header {
+    border-bottom: solid 1px #cdcbd7;
+    margin: 0rem 1rem 1rem 0rem;
+    color: #7a7474;
+    justify-content: space-between;
+  }
+
+  .message-right-header {
+    border-bottom: solid 1px #cdcbd7;
+    margin: 1rem 1rem 1rem 0rem;
+    color: #7a7474;
+    justify-content: space-between;
+  }
+
+  .message-left-header i {
+    color: #ada6a6;
+  }
+
+  .message-right-header i {
+    color: #ada6a6;
+  }
+
+  .message-win-left {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-bottom: solid 1px #cdcbd7;
+    border-right: solid 1px #cdcbd7;
+  }
+
+  .message-win-right {
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+
+  .mess-chats {
+    justify-content: center;
+  }
+
+  .create-chat-side {
+    position: relative;
+  }
+
+  .close-icon-x {
+    position: absolute;
+    bottom: 2.80rem;
+    left: 3rem;
+    
+  }
+
+  .usernames {
+    margin-top: 2rem;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 28px;
+    background-color: hsl(252, 14%, 93%);
+    width: 90%;
+  }
+  
+  .username-input {
+    font-size: 16px;
+    font-family: "lexend", sans-serif;
+    color: #333333;
+    margin-left: 9px;
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+  }
+
+  #mydiv {
+    position: absolute;
+    z-index: 100;
+    
+  }
+  
+  #mydivheader {
+    width: 100%;
+    height: 2rem;
+    padding: 1px;
+    cursor: move;
+    z-index: 110;
+    background-color: #2196F3;
+    color: #fff;
+  }
+
+  .hideForTheMoment {
+    display: none;
+}

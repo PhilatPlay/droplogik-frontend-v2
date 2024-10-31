@@ -1,0 +1,155 @@
+.fixed-head {
+  position: fixed;
+}
+
+
+.main-navigation__menu-btn {
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.main-navigation__menu-btn span {
+  display: block;
+  width: 2rem;
+  height: 1.5px;
+  background: #170254;
+}
+
+.main-navigation__title {
+  /* margin-top: .5rem; */
+  color: #2a1078;
+}
+.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 300;
+  font-style: normal;font-size: 30px;
+}
+
+.main-navigation__title a {
+  text-decoration: none;
+  color: #170254;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: Helvetica; */
+}
+
+.main-logo {
+  padding: 2px;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: normal;
+}
+
+.header-item__image {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0rem;
+  border-radius: 0%;
+}
+
+.main-navigation__header-nav {
+  display: none;
+}
+
+.main-navigation__drawer-nav {
+  height: 100%;
+}
+
+.s-mag {
+  margin-top: 1rem;
+  font-size: 32px; 
+}
+
+.search {
+  margin-top: .5rem;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 28px;
+  background-color: hsl(252, 14%, 93%);
+  width: 600px;
+}
+
+.search-input {
+  font-size: 16px;
+  font-family: "lexend", sans-serif;
+  color: #333333;
+  margin-left: 9px;
+  outline: none;
+  border: none;
+  background: transparent;
+  flex: 1;
+}
+
+.search-input::placeholder,
+.search-icon {
+  color: 0, 0, 0, 0.25;
+}
+
+@media (max-width: 875px) {
+  .search {
+    width: 100px;
+  }
+    .search-input {
+      width: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+  .search {
+    width: 75px;
+    display: none;
+  }
+}
+
+@media (max-width: 1125px) {
+  .search {
+    width: 300px;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  .main-navigation__menu-btn {
+    display: none;
+  }
+
+  .main-navigation__header-nav {
+    display: block;
+  }
+}
+
+@media (min-width: 600px) {
+  .s-mag {
+    display: none;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .search-pain {
+    width: 16rem;
+    height: 0rem;
+    }
+  }
+
+@media (max-width: 481px) {
+  .search {
+    display: none;
+  }
+
+  .search-pain {
+    width: 9rem;
+    height: 0rem;
+    }
+}
